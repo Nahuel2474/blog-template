@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <div className="font-poppins">
-      <BrowserRouter>
+      <BrowserRouter basename="/blog-template/">
         <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

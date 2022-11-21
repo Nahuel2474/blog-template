@@ -4,7 +4,7 @@ export const sidebar = [
     post: (
       <ul className="ml-5 ">
         <li><a href="/posts">Post 1 - 22/07/22</a></li>
-        <li>Post 2 - 10/06/22 </li>
+        <li><a href="/posts">Post 2 - 10/06/22</a> </li>
         <li>Post 3 - 08/06/22</li>
         <li>Post 4 - 10/05/22</li>
       </ul>
