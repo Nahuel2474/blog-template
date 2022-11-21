@@ -47,7 +47,7 @@ const Hero = () => {
     <div className="w-[90vw] my-20 text-center ">
       <Slider {...settings}>
         {cards.map((el, index) => (
-          <div className=" text-white xs:h-[100px] ss:h-40 md:h-96 rounded-xl relative ">
+          <div key={index} className=" text-white xs:h-[100px] ss:h-40 md:h-96 rounded-xl relative ">
             <img
               src={el.img}
               alt=""
